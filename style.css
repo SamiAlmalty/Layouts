@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+
+
+body {
+  margin: 0;
+  color: #565950;
+  font-family: "Montserrat", sans-serif;
+}
+
+#hero {
+  height: 700px;
+  padding: 32px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-size: cover;
+  background-position-y: 40%;
+  background-image: url("https://images.unsplash.com/photo-1486707471592-8e7eb7e36f78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1885&q=80");
+}
+
+#nav {
+ 
+  display: flex;
+  padding: 20px 32px;
+  justify-content: space-between;
+  background-color: #E9EFEF;
+  border-bottom: 2px solid #d1d9d9;
+}
+
+#logo {
+  font-size: 32px;
+  font-weight: 900px;
+}
+
+#logo span {
+  color: #dd931d;
+}
+
+#menu {
+  font-size: 25px;
+  display: flex;
+  gap: 16px;
+}
+
+.menu-item a {
+  font-size: 20px;
+  color: #565950;
+  text-decoration: 0;
+  font-weight: 500;
+}
+
+.menu-item a:hover {
+  color: #dd931d;
+}
+
+.menu-item a:visited {
+  color: 0;
+}
+
+#hero-content {
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#hero-content h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+#hero-content p {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#call-to-action {
+  font-size: 20px;
+  font-weight: 600;
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  color: #fff;
+  background-color: #26231f;
+}
+
+
+#about {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  padding: 48px 32px;
+}
+
+#about > p {
+  text-align: center;
+  width: 70%;
+}
+
+#about-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  border-top: 4px solid #dd931d;
+  padding: 48px 32px;
+  width: 400px;
+}
+
+.card svg {
+  height: 50px;
+  width: 50px;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #dd931d;
+}
+
+
+#volunteers {
+background-color: #F5F5F5;
+  padding: 48px 32px;
+  display: grid;
+  gap: 48px;
+}
+
+#slider {
+  padding: 50px 32px;
+  position: relative;
+  border: 1px solid #0000003f;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  background-color: white;
+}
+
+#bio {
+  display: grid;
+  gap: 25px;
+  padding: 32px;
+  border-right: 2px solid #0000003f;
+  height: 90%;
+  margin: auto;
+}
+
+#bio-heading {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+
+#bio img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+#achivment {
+  padding: 16px;
+  display: grid;
+  gap: 16px;
+  height: 90%;
+  margin: auto;
+}
+
+#achivment img {
+  height: 350px;
+  width: 100%;
+}
+
+#left-triangle {
+  height: 21px;
+  width: 21px;
+  position: absolute;
+  bottom: 16px;
+  left: 48%;
+}
+
+#right-triangle {
+  height: 21px;
+  width: 21px;
+  position: absolute;
+  bottom: 16px;
+  right: 49%;
+}
+
+
+#contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  padding: 48px 32px;
+}
+
+.underline {
+  height: 2px;
+  width: 200px;
+  background-color: #dd931d;
+}
+
+#contact-us {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#contact-us p {
+  width: 50%;
+}
+
+#contact-us h2 {
+  margin-bottom: 0;
+}
+
+.info svg {
+  height: 20px;
+  width: 20px;
+}
+
+.info span {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#send-message {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#send-message input {
+  padding: 16px;
+  width: 300px;
+  border: 1px solid #0000003f;
+  border-radius: 5px;
+}
+
+#send-message textarea {
+  padding: 16px;
+  width: 500px;
+  border: 1px solid #0000003f;
+  border-radius: 5px;
+}
+
+#send-message button {
+  font-size: 20px;
+  font-weight: 600;
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  color: #dd931d;
+  background-color: #26231f;
+}
+
+#footer {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  color: #fff;
+  background-color: #565950;
+}
+#footer span {
+  color: #dd931d;
+}
